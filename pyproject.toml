@@ -1,0 +1,8 @@
+[project]
+name = "vector-lab"
+version = "0.1.0"
+description = "Experimental lab for approximate nearest neighbor search methods"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

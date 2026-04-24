@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: vector-lab
+Version: 0.1.0
+Summary: Experimental lab for approximate nearest neighbor search methods
+Requires-Python: >=3.10
