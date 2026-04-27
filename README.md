@@ -69,12 +69,12 @@ Each method exposes the same interface: `build(vectors)`, `search(query, k)`. Ad
 
 > Replace this table with your actual benchmark results. Format kept consistent with the ann-benchmarks community.
 
-	method	                                        build_time_sec	    mean_recall_at_k	mean_latency_ms	        p95_latency_ms	memory_delta_mb
-brute_force	                                    2.3239990696310997e-06	1.0	                    0.06786782061681151	0.0731652064132504	0.0
-scann	                                        0.5335132439940935	    0.7440000000000002	    0.04240015958203003	0.05543890147237107	18.0234375
-hnsw_spacecosine_M16_efc200_efs100	            0.36301516099774744	    0.9720000000000002	    0.1819357210479211	0.36130860171397206	5.76953125
-satellite_balltree	                            0.29890566899848636	    0.8660000000000001	    7.586552749853581	67.62494116264861	2.7421875
-dict_bucket_recursive_scale1000_steps5_best20	4.626482506995671	    0.0	                    1.2018083412840497	0.8171628011041315	677.01953125
+	method| build_time_sec| mean_recall_at_k| mean_latency_ms| p95_latency_ms| memory_delta_mb
+brute_force |2.3239990696310997e-06| 1.0| 0.06786782061681151| 0.0731652064132504| 0.0
+scann| 0.5335132439940935| 0.7440000000000002| 0.04240015958203003| 0.05543890147237107| 18.0234375
+hnsw_spacecosine_M16_efc200_efs100| 0.36301516099774744| 0.9720000000000002| 0.1819357210479211| 0.36130860171397206| 5.76953125
+satellite_balltree| 0.29890566899848636| 0.8660000000000001| 7.586552749853581| 67.62494116264861| 2.7421875
+dict_bucket_recursive_scale1000_steps5_best20| 4.62648250699567| 0.0| 1.2018083412840497| 0.8171628011041315| 677.01953125
 
 Plots in `outputs/benchmarks/`.
 
